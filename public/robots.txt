@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /manager/
+Disallow: /staff/
+Disallow: /dashboard/
+Disallow: /api/
+
+Sitemap: https://proty.com/sitemap.xml

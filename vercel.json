@@ -1,0 +1,13 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "regions": ["iad1"],
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "AUTH_SECRET": "@auth_secret",
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "RESEND_API_KEY": "@resend_api_key"
+  }
+}
